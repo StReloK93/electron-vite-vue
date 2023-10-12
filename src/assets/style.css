@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.default-button{
+    @apply px-4 w-full text-center py-1 rounded-sm bg-gray-300 text-gray-800 hover:bg-stone-300 active:bg-gray-200
+}
