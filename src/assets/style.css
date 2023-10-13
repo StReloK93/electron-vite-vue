@@ -3,6 +3,27 @@
 @tailwind utilities;
 
 
-.default-button{
-    @apply px-4 w-full text-center py-1 rounded-sm bg-gray-300 text-gray-800 hover:bg-stone-300 active:bg-gray-200
+.btn{
+    @apply px-4 text-center py-1 rounded-sm inline-block shadow-md
+}
+
+.btn-teal{
+    @apply bg-teal-600 text-white hover:bg-teal-700 active:bg-teal-500
+}
+
+.btn-white{
+    @apply bg-teal-100 text-teal-600 hover:bg-teal-200 active:bg-white active:shadow-sm
+}
+
+::-webkit-scrollbar  {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bebebe;
 }
