@@ -28,11 +28,11 @@ export default function (files: FileList, callback: Function) {
 		}
 
 		result.forEach(data => {
-			data['adj close'] = +data['adj close']
-			data['close'] = +data['close']
-			data['high'] = +data['high']
-			data['low'] = +data['low']
-			data['open'] = +data['open']
+			data['adj close'] = (+data['adj close']).toFixed(2)
+			data['close'] = (+data['close']).toFixed(2)
+			data['high'] = (+data['high']).toFixed(2)
+			data['low'] = (+data['low']).toFixed(2)
+			data['open'] = (+data['open']).toFixed(2)
 		});
 		return result
 	}

@@ -2,8 +2,8 @@
 	<section class="bg-gray-100 h-screen flex flex-col">
 		<Header />
 		<section class="flex-grow relative overflow-y-auto py-6">
-			<Main v-if="store.tradeData.length" class="container mx-auto"/>
-			<EmptyPage v-else/>
+			<Main v-if="store.tradeData != null" class="container mx-auto" />
+			<EmptyPage v-else />
 		</section>
 	</section>
 </template>

@@ -1,8 +1,7 @@
 <template>
     <section>
-        <Table />
+        <!-- <Table /> -->
         <BackTestOne />
-
     </section>
 </template>
 

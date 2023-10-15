@@ -38,6 +38,7 @@
     "vue-tsc": "^1.8.8"
   },
   "dependencies": {
+    "@babel/types": "^7.23.0",
     "ag-grid-community": "^30.2.0",
     "ag-grid-vue3": "^30.2.0",
     "pinia": "^2.1.7"

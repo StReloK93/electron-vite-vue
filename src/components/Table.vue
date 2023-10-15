@@ -12,7 +12,6 @@ import { indexStore } from '@/store/indexStore'
 import { reactive } from 'vue';
 const store = indexStore()
 
-
 const columnDefs = reactive([
     { field: "date", headerName: 'date' },
     { field: "open", headerName: 'Open' , flex: 1 },

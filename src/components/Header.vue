@@ -12,8 +12,8 @@
 				<i class="text-xs leading-3">Trade</i>
 			</main>
 		</h3>
-		<Import v-if="store.tradeData.length == 0" :classes="'btn-white'"/>
-		<button v-else @click="store.tradeData = []" class="btn btn-white">
+		<Import v-if="store.tradeData == null" :classes="'btn-white'"/>
+		<button v-else @click="store.tradeData = null" class="btn btn-white">
 			Chiqish <i class="fa-duotone fa-right-from-bracket ml-3"></i>
 		</button>
 	</div>
